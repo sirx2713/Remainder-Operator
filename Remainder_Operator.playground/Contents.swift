@@ -6,10 +6,10 @@ struct isad{
     let y:Int
     func divide(){
         
-        let division = x / y
-        let remainder = x % y
+        let division = Double(x / y)
+        let remainder = Double(x % y)
         print("Division: \(division)\n Remainder: \(remainder)")
     }
 }
-let showAnswer = isad(x: 32, y: 4)
+let showAnswer = isad(x: 32, y: 7)
 showAnswer.divide()
